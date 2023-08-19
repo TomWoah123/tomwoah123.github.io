@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a716de51-d045-4078-84dd-832864a3f334" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/teaching.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/torgersen.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/torgersen.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,15 +27,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/timot/Documents/tomwoah123.github.io",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\timot\Documents\tomwoah123.github.io" />
       <recent name="C:\Users\timot\Desktop\Random CS Projects\professional-website\html5up-solid-state\assets" />
       <recent name="C:\Users\timot\Desktop\Random CS Projects\professional-website\html5up-solid-state\images" />
     </key>
@@ -62,6 +69,8 @@
       <workItem from="1661089332436" duration="952000" />
       <workItem from="1664769456575" duration="35000" />
       <workItem from="1669043892904" duration="225000" />
+      <workItem from="1690074196003" duration="206000" />
+      <workItem from="1692453754686" duration="4854000" />
     </task>
     <servers />
   </component>
