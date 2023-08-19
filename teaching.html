@@ -1,18 +1,46 @@
 <!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 <head>
-  <title>Timothy Wu's Website</title>
-  <link rel="icon" href="images/vt_logo.png" type="image/x-icon">
+  <title>Solid State by HTML5 UP</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <link rel="stylesheet" href="assets/css/main.css" />
   <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  <link rel="stylesheet" href="assets/css/pre.css" />
+
+  <!-- uses google-code-prettify for syntax highlighting
+       see https://github.com/google/code-prettify/ for more info -->
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
+  <!-- uses MathJax CDC for LaTeX support
+       see http://docs.mathjax.org/en/latest/start.html for more info -->
+  <script type="text/x-mathjax-config">
+			MathJax.Hub.Config
+			({
+				extensions: ["tex2jax.js"],
+		    	jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax:
+				{
+					inlineMath: [['$','$'], ['\\(','\\)']],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["MathJax TeX"] }
+			});
+		</script>
+  <script type="text/javascript"
+          src="https://cdn.mathjax.org/mathjax/latest/MathJax.js">
+  </script>
 </head>
-<body>
+<body class="is-preload">
 
 <!-- Page Wrapper -->
 <div id="page-wrapper">
-
   <!-- Header -->
   <header id="header">
     <h1><a href="index.html">Timothy Wu</a></h1>
@@ -26,7 +54,7 @@
     <div class="inner">
       <h2>Menu</h2>
       <ul class="links">
-        <li><a href="index.html">About Me</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="portfolio.html">Project Portfolio</a></li>
         <li><a href="teaching.html">Teaching</a></li>
         <li><a href="#footer">Contact</a></li>
@@ -104,15 +132,12 @@
     </div>
   </section>
 
-</div>
-
-<!-- Scripts -->
-<script src="assets/js/skel.min.js"></script>
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.scrollex.min.js"></script>
-<script src="assets/js/util.js"></script>
-<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-<script src="assets/js/main.js"></script>
-
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
